@@ -1,5 +1,5 @@
 # Towards General Low-Light Raw Noise Synthesis and Modeling (ICCV 2023)
-**Technical Report**: [![](https://img.shields.io/badge/Report-arXiv:2307.16508-green)]((https://arxiv.org/abs/2307.16508))
+**Technical Report**: [![](https://img.shields.io/badge/Report-arXiv:2307.16508-green)](https://arxiv.org/abs/2307.16508)
 Source code and datasets will be released soon.
 
 <table>
