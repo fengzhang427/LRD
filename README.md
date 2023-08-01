@@ -3,6 +3,9 @@
 
 <img width="900" alt="image" src='./asset/results.png'>
 
+LRD is a general framework for low-light raw noise synthesis and modeling.
+Specifically, we synthesize the signal-dependent and signal-independent noise in a physics- and learning-based manner, respectively. In this way, our method can be considered as a general model, that is, it can simultaneously learn different noise characteristics for different ISO levels and generalize to various sensors.
+
 ## :snake:Synthesis Pipeline
 <img width="900" alt="image" src='./asset/framework.png'>
 
