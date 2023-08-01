@@ -1,14 +1,14 @@
 # Towards General Low-Light Raw Noise Synthesis and Modeling (ICCV 2023)
 **Technical Report**: [![](https://img.shields.io/badge/Report-arXiv:2307.16508-green)](https://arxiv.org/abs/2307.16508)
 
-<img width="900" alt="image" src='./assets/results.png'>
+<img width="900" alt="image" src='./asset/results.png'>
 
 ## :snake:Synthesis Pipeline
-<img width="900" alt="image" src='./assets/framework.png'>
+<img width="900" alt="image" src='./asset/framework.png'>
 
 ## :open_file_folder:LRD Datasets
 Source code and datasets will be released soon.
-<img width="900" alt="image" src='./assets/datasets.png'>
+<img width="900" alt="image" src='./asset/datasets.png'>
 
 ## :bookmark_tabs:Intallation
 * Install the conda environment
