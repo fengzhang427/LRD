@@ -10,12 +10,48 @@
 </table>
 
 
-## :snake:Pipeline
+## :snake:Synthesis Pipeline
 <img width="900" alt="image" src='./assets/framework1.png'>
 
-## :bookmark_tabs:Intallation
+## :open_file_folder:LRD Datasets
 Source code and datasets will be released soon.
 
+## :bookmark_tabs:Intallation
+* Install the conda environment
+```
+conda create -n lrd python=3.8
+conda activate lrd
+```
+* Install Pytorch
+```commandline
+conda install pytorch==1.9 torchvision cudatoolkit=10.2 -c pytorch
+```
+* Install Packages for Raw Image
+```commandline
+pip install rawpy
+pip install ExifRead
+pip install h5py
+```
+* Install other packages
+```commandline
+pip install tqdm
+pip install lmdb
+pip install glob
+pip install imageio
+pip install PyYAML
+pip install timm
+pip install patchify
+conda install -c conda-forge scipy
+pip install opencv-python
+pip install tensorboardx
+pip install scikit-image
+pip install colour
+pip install pylab-sdk
+pip install pillow
+```
+
+## :car:Run
+Source code and datasets will be released soon.
 
 ## :book: Citation
 If you find our LRD model useful for you, please consider citing :mega:
