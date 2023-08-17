@@ -9,9 +9,15 @@ Specifically, we synthesize the signal-dependent and signal-independent noise in
 ## :snake:Synthesis Pipeline
 <img width="900" alt="image" src='./asset/framework.png'>
 
-## :open_file_folder:LRD Datasets
-Source code and datasets will be released soon.
+## :open_file_folder:LRD Dataset
+The LRD dataset is available for download at [Baidudisk](https://pan.baidu.com/s/1m7Qwa4Y2IvpAlCfmlgWiUQ) (vj53)
+
 <img width="900" alt="image" src='./asset/datasets.png'>
+
+## :heavy_check_mark:Pretrained Models
+The pretrained models for raw denoise is available at [Baidudisk](https://pan.baidu.com/s/1iMNrQh5P4g2prhhk2Tcu_g) (ujzm)
+
+Due to the business license, pre-trained models for noise synthesis are not available now.
 
 ## :bookmark_tabs:Intallation
 * Install the conda environment
@@ -48,7 +54,20 @@ pip install pillow
 ```
 
 ## :car:Run
-Source code and datasets will be released soon.
+* Quick start to raw denoising tests for SID dataset
+```commandline
+python test_denoise_SID.py
+```
+* Quick start to raw denoising tests for ELD dataset
+```commandline
+python test_denoise_ELD.py
+```
+* Quick start to raw denoising tests for LRD dataset
+```commandline
+python test_denoise_LRD.py
+```
+
+Due to the business license, source code for noise synthesis are not available now.
 
 ## :book: Citation
 If you find our LRD model useful for you, please consider citing :mega:
