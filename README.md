@@ -67,7 +67,7 @@ python test_denoise_ELD.py
 python test_denoise_LRD.py
 ```
 
-Due to the business license, source code for noise synthesis are not available now.
+Due to the business license, the source code for noise synthesis is not available now.
 
 ## :book: Citation
 If you find our LRD model useful for you, please consider citing :mega:
