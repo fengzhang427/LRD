@@ -1,0 +1,63 @@
+# Copyright (C) 2017 NVIDIA Corporation.  All rights reserved.
+# Licensed under the CC BY-NC-SA 4.0 license (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+
+# logger options
+image_save_epoch: 10        # How often do you want to save output images during training
+snapshot_save_epoch: 10     # How often do you want to save trained models
+log_iter: 10                # How often do you want to log the training stats
+logID: exp1                 # log ID
+
+# optimization options
+epoch_start: 0              # the starting epoch count
+init_epoch: 0               # the initial epoch
+n_epochs: 100               # number of epochs with the initial learning rate
+n_epochs_decay: 100         # number of epochs to linearly decay learning rate to zero
+max_epoch: 100              # maximum number of training iterations
+batch_size: 128             # batch size
+patch_size: 64              # patch size
+weight_decay: 0.0001        # weight decay
+beta1: 0.5                  # Adam parameter
+beta2: 0.999                # Adam parameter
+lr: 0.0002                  # initial learning rate
+gen_init: kaiming           # network initialization [normal | xavier | kaiming | orthogonal]
+dis_init: normal            # network initialization [normal | xavier | kaiming | orthogonal]
+lr_policy: cosine           # learning rate scheduler [linear | step | plateau | cosine]
+step_size: 10               # how often to decay learning rate
+gamma: 0.5                  # how much to decay learning rate
+gan_w: 1                    # weight of adversarial loss
+gen_lpips_w: 0.01           # weight of gen lpips loss
+recon_w: 0.1                # weight for L1 loss
+
+# Generator/Discriminator
+lambda_gp: 10                # weight of Gradient Penalty
+gan_type: wgangp             # the type of GAN objective. [vanilla | lsgan | wgangp | rsgan | ragan | ra-lsgan | ra-hgan]
+input_nc_g: 4                # of input image channels: 4 for raw, 3 for RGB and 1 for grayscale
+input_nc_d: 4                # of input image channels: 4 for raw, 3 for RGB and 1 for grayscale
+output_nc: 4                 # of input image channels: 4 for raw, 3 for RGB and 1 for grayscale
+ngf: 64                      # of gen filters in the last conv layer
+ndf: 64                      # of dis filters in the last conv layer
+netD: ftd                    # specify discriminator architecture [pixel | no_norm | ftd]
+netG: sidG                   # specify generator architecture [sidG | lrdG]
+n_layers_D: 3                # only used if netD==n_layers
+norm: none                   # instance normalization or batch normalization [instance | batch | none]
+use_sigmoid: False           # Sigmoid for the discriminator
+use_dropout: False           # dropout for the generator
+padding_type: reflect        # the name of padding layer in conv layers [reflect | replicate | zero]
+
+# data options
+valid_batch_size: 1                                   # batch size in validation
+num_workers: 4                                        # number of data loading threads
+n_critic: 5                                           # how often to train generator
+pool_size: 50                                         # the size of image buffer
+output_path: ./Noise_Synthesis_results_SID            # Output path for image and checkpoint saving
+set_ratio: 100                                        # set up the target exposure ratio
+
+# data root
+SID_root:  /home/dancer/train_datasets/SID/         # SID_pre dataset folder location
+ELD_root:  /home/dancer/train_datasets/ELD/         # ELD dataset folder location
+
+# image list
+train_img_list: ./datalist/Sony_train_list.txt         # Train image list for noise generator
+val_img_list: ./datalist/Sony_val_list.txt             # Validate image list for noise generator
+test_img_list: ./datalist/Sony_test_list.txt           # Test image list for noise generator
+KLD_test_list: ./datalist/Sony_KLD_test_list.txt       # Image list for KLD metrics calculate
