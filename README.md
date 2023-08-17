@@ -85,7 +85,6 @@ If you find our LRD model useful for you, please consider citing :mega:
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
-}
 ```
 
 ## :email:Contact
