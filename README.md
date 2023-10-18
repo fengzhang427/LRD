@@ -15,7 +15,7 @@ The LRD dataset is available for download at [Baidudisk](https://pan.baidu.com/s
 <img width="900" alt="image" src='./asset/datasets.png'>
 
 ## :heavy_check_mark:Pretrained Models
-The pretrained models for raw denoise is available at [Baidudisk](https://pan.baidu.com/s/1iMNrQh5P4g2prhhk2Tcu_g) (ujzm).
+The pretrained models for raw denoise is available at [Baidudisk](https://pan.baidu.com/s/1iMNrQh5P4g2prhhk2Tcu_g) (ujzm) or [Google Drive](https://drive.google.com/file/d/1VkgHyEU6hNsXLL1vRfFWWLZCmGYGyi_h/view?usp=sharing).
 
 Due to the business license, pre-trained models for noise synthesis are not available now.
 
