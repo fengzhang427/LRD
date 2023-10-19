@@ -10,7 +10,7 @@ Specifically, we synthesize the signal-dependent and signal-independent noise in
 <img width="900" alt="image" src='./asset/framework.png'>
 
 ## :open_file_folder:LRD Dataset
-The LRD dataset is available for download at [Baidudisk](https://pan.baidu.com/s/1m7Qwa4Y2IvpAlCfmlgWiUQ) (vj53)
+The LRD dataset is available for download at [Baidudisk](https://pan.baidu.com/s/1m7Qwa4Y2IvpAlCfmlgWiUQ) (vj53) or [Dropbox](https://www.dropbox.com/scl/fi/tari9hvf2ubxo232owekz/LRD.zip?rlkey=7zj9kqgsf06g97smexkrzv05q&dl=0).
 
 <img width="900" alt="image" src='./asset/datasets.png'>
 
