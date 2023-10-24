@@ -77,13 +77,13 @@ Due to the business license, the source code for noise synthesis is not availabl
 ## :book: Citation
 If you find our LRD model useful for you, please consider citing :mega:
 ```bibtex
-@misc{zhang2023general,
-      title={Towards General Low-Light Raw Noise Synthesis and Modeling}, 
-      author={Feng Zhang and Bin Xu and Zhiqiang Li and Xinran Liu and Qingbo Lu and Changxin Gao and Nong Sang},
-      year={2023},
-      eprint={2307.16508},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Zhang_2023_ICCV,
+    author    = {Zhang, Feng and Xu, Bin and Li, Zhiqiang and Liu, Xinran and Lu, Qingbo and Gao, Changxin and Sang, Nong},
+    title     = {Towards General Low-Light Raw Noise Synthesis and Modeling},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {10820-10830}
 }
 ```
 
