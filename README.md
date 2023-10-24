@@ -1,5 +1,5 @@
 # Towards General Low-Light Raw Noise Synthesis and Modeling (ICCV 2023)
-**Technical Report**: [![](https://img.shields.io/badge/Report-arXiv:2307.16508-green)](https://arxiv.org/abs/2307.16508)
+**Technical Report**: [![](https://img.shields.io/badge/Report-arXiv:2307.16508-green)]([Towards General Low-Light Raw Noise Synthesis and Modeling](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_Towards_General_Low-Light_Raw_Noise_Synthesis_and_Modeling_ICCV_2023_paper.html))
 
 <img width="900" alt="image" src='./asset/results.png'>
 
