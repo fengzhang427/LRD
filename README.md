@@ -40,7 +40,8 @@ pip install ExifRead
 pip install h5py
 ```
 
-**Note that the rawpy version is using ELD's customized rawpy, which can be downloaded from https://github.com/Vandermode/ELD.**
+**Note that the rawpy version is using ELD's customized rawpy, which can be downloaded from [GoogleDrive](https://drive.google.com/drive/folders/1QoEhB1P-hNzAc4cRb7RdzyEKktexPVgy?usp=sharing) or [Baidudisk](https://pan.baidu.com/s/11ksugpPH5uyDL-Z6S71Q5g ) (0lby).**
+To build rawpy from source, please first compile and install the LibRaw library following the official [instructions](https://www.libraw.org/docs/Install-LibRaw-eng.html), then type ```pip install -e .``` in the customized rawpy directory. 
 
 * Install other packages
 ```commandline
