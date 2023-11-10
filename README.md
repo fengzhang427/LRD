@@ -36,7 +36,6 @@ conda install pytorch==1.9 torchvision cudatoolkit=10.2 -c pytorch
 ```
 * Install Packages for Raw Image
 ```commandline
-pip install rawpy
 pip install ExifRead
 pip install h5py
 ```
