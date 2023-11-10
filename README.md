@@ -40,7 +40,8 @@ pip install rawpy
 pip install ExifRead
 pip install h5py
 ```
-# Note that the rawpy version is using ELD's customized rawpy, which can be downloaded from https://github.com/Vandermode/ELD.
+
+**Note that the rawpy version is using ELD's customized rawpy, which can be downloaded from https://github.com/Vandermode/ELD.**
 
 * Install other packages
 ```commandline
